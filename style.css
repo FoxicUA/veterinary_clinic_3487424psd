@@ -203,21 +203,22 @@ input.nav-search-input::placeholder {
   font-size: 24px;
 }
 
-/* .footer-content__inner:last-child {
+.footer-content__inner .footer-content__box:last-child {
   text-align: right;
-  display: flex;
-} */
+}
 
 .footer-content__link {
   color: #fff;
   font-size: 24px;
   font-weight: 400;
+  line-height: 1.8;
 }
 
 .footer-form {
   width: 530px;
   height: 90px;
   display: flex;
+  margin: 50px 0;
 }
 
 .footer-form__input {
@@ -232,4 +233,15 @@ input.nav-search-input::placeholder {
   height: 90px;
   background-color: #00bec9;
   border: none;
+}
+
+.social-link__list {
+  display: flex;
+  justify-content: flex-end;
+  color:beige;
+  gap:15px;
+}
+
+.social-link__element a{
+  text-align: right;
 }
